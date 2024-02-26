@@ -1,5 +1,6 @@
+body{margin: 0;}
 .collapsible {
-    background-color: #ecba79;
+    background-color: #ebcdbb;
     color: #000000;
     cursor: pointer;
     padding: 15px;
@@ -10,14 +11,23 @@
     font-size: 15px;
   }
   .active, .collapsible:hover {
-    background-color: #e7d6be;
+    background-color: #c2a492;
+    border: 2px solid #24120b;
   }
   .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #ecba79;
+    background-color: #ebcdbb;
+    border: 2px solid #24120b;
   }
   .butright {
-    border: 1px solid black;
+    border-left: 2px solid #24120b;
+    flex: 40%;
+  }
+  .all {
+    display: flex;
+  }
+  .left {
+    flex: 60%;
   }
